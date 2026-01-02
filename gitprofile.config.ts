@@ -2,7 +2,7 @@
 
 const CONFIG = {
   github: {
-    username: 'arifszn', // Your GitHub org/user name. (This is the only required config)
+    username: 'hansika-41', // Your GitHub org/user name. (This is the only required config)
   },
   /**
    * If you are deploying to https://<USERNAME>.github.io/, for example your repository is at https://github.com/arifszn/arifszn.github.io, set base to '/'.
@@ -51,107 +51,77 @@ const CONFIG = {
       ],
     },
   },
-  seo: { title: 'Portfolio of Ariful Alam', description: '', imageURL: '' },
+  seo: { title: 'Portfolio of Hansika', description: '', imageURL: '' },
   social: {
-    linkedin: 'ariful-alam',
-    x: 'arif_szn',
-    mastodon: 'arifszn@mastodon.social',
+    linkedin: 'Hansika Kanamarlapudi',
+    x: 'kan5134_hansika',
     researchGate: '',
-    facebook: '',
-    instagram: '',
-    reddit: '',
-    threads: '',
+    facebook: 'Hansika Kanamarlapudi',
+    instagram: '_hansika.4127',
     youtube: '', // example: 'pewdiepie'
     udemy: '',
     dribbble: '',
     behance: '',
-    medium: 'arifszn',
-    dev: 'arifszn',
-    stackoverflow: '', // example: '1/jeff-atwood'
+    stackoverflow: '', 
     discord: '',
     telegram: '',
-    website: 'https://www.arifszn.com',
     phone: '',
-    email: 'arifulalamszn@gmail.com',
-  },
-  resume: {
-    fileUrl:
-      'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', // Empty fileUrl will hide the `Download Resume` button.
+    email: '24jr1a0579@gmail.com',
   },
   skills: [
-    'PHP',
-    'Laravel',
     'JavaScript',
     'React.js',
     'Node.js',
-    'Nest.js',
-    'MySQL',
-    'PostgreSQL',
-    'Git',
-    'Docker',
-    'PHPUnit',
     'CSS',
-    'Antd',
-    'Tailwind',
+    'MySQL',
+    'C',
+    'Java',
+    'Python',
+    'C++',
   ],
-  experiences: [
-    {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'September 2021',
-      to: 'Present',
-      companyLink: 'https://example.com',
-    },
-    {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'July 2019',
-      to: 'August 2021',
-      companyLink: 'https://example.com',
-    },
-  ],
-  certifications: [
-    {
-      name: 'Lorem ipsum',
-      body: 'Lorem ipsum dolor sit amet',
-      year: 'March 2022',
-      link: 'https://example.com',
-    },
-  ],
+
   educations: [
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2015',
-      to: '2019',
+     institution: 'Loyola Public School',
+     degree: 'School',
+     from: '2012',
+     to: '2022',
     },
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2012',
-      to: '2014',
+      institution: 'Arka Vidwan Junior College',
+      degree: 'Intermediate',
+      from: '2022',
+      to: '2024',
+    },
+    {
+      institution: 'KKR & KSR Institute Of Technology and Sciences',
+      degree: 'B.Tech',
+      from: '2024',
+      to: '2028',
     },
   ],
-  publications: [
-    {
-      title: 'Publication Title',
-      conferenceName: '',
-      journalName: 'Journal Name',
-      authors: 'John Doe, Jane Smith',
-      link: 'https://example.com',
-      description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-    },
-    {
-      title: 'Publication Title',
-      conferenceName: 'Conference Name',
-      journalName: '',
-      authors: 'John Doe, Jane Smith',
-      link: 'https://example.com',
-      description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-    },
-  ],
+
+certifications: [
+  {
+    name: 'Ethical Hacking (NPTEL)',
+    body: 'Earned a consolidated score of 57% in this NPTEL course, gaining insights into network security and system vulnerabilities.',
+    year: 'October 2023',
+    link: 'https://hansika-41.github.io/gitprofile/Nptel.jpg', 
+  },
+  {
+    name: 'Full Stack Development',
+    body: 'Completed a Skill-Oriented Course on Full Stack Development organized by APSSDC in collaboration with the Dept. of CSE at KITS.',
+    year: '2023',
+    link: 'https://hansika-41.github.io/gitprofile/fsd.png',
+  },
+  {
+    name: 'Internet of Things (IOT)',
+    body: 'Completed 40 hours of hands-on experience with microcontrollers and real-time systems.',
+    year: 'August 2025',
+    link: 'https://hansika-41.github.io/gitprofile/iot-cer.jpg',
+  },
+],
+  
   // Display articles from your medium or dev account. (Optional)
   blog: {
     source: 'dev', // medium | dev
@@ -219,11 +189,7 @@ const CONFIG = {
   },
 
   // Optional Footer. Supports plain text or HTML.
-  footer: `Made with <a 
-      class="text-primary" href="https://github.com/arifszn/gitprofile"
-      target="_blank"
-      rel="noreferrer"
-    >GitProfile</a> and ❤️`,
+
 
   enablePWA: true,
 };

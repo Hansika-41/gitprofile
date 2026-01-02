@@ -1,16 +1,16 @@
 {
-  "name": "@arifszn/gitprofile",
+  "name": "@hansika-41/gitprofile",
   "description": "Create an automatic portfolio based on GitHub profile",
   "version": "4.0.0",
   "type": "module",
   "license": "MIT",
-  "author": "arifszn",
+  "author": "hansika-41",
   "repository": {
     "type": "git",
-    "url": "https://github.com/arifszn/gitprofile.git"
+    "url": "https://github.com/Hansika-41"
   },
   "bugs": {
-    "url": "https://github.com/arifszn/gitprofile/issues"
+    "url": "https://github.com/Hansika-41"
   },
   "scripts": {
     "dev": "vite",
