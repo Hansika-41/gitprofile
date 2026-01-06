@@ -24,6 +24,66 @@
     <meta name="twitter:description" content="<%- metaDescription %>" />
     <meta name="twitter:image" content="<%- metaImageURL %>" />
     <%- googleAnalyticsScript %>
+    <style>
+  /* 1. Reset Container for Full Screen */
+  .container {
+    max-width: 100vw !important;
+    width: 100% !important;
+    margin: 0 auto !important;
+    padding: 20px !important;
+  }
+
+  /* 2. ENLARGE PROFILE IMAGE & CIRCLE */
+  /* This targets the avatar wrapper and the 'mask-circle' used by the theme */
+  .avatar, .avatar > div, .mask, .mask-circle {
+    width: 500px !important;  /* Increased from default ~120px */
+    height: 500px !important; /* Keep it square to maintain the circle */
+  }
+
+  .avatar img {
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: cover !important; /* Prevents stretching */
+  }
+
+  /* 3. Center the enlarged image in its card */
+  #profile-card .card-body {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+  }
+
+  /* 4. Row-Based Layout for Sections */
+  .lg\:grid-cols-3 {
+    display: flex !important;
+    flex-direction: column !important;
+    width: 100% !important;
+    gap: 20px !important;
+  }
+
+  .lg\:col-span-1, .lg\:col-span-2 {
+    width: 100% !important;
+    display: flex !important;
+    flex-direction: row !important;
+    flex-wrap: wrap !important;
+    gap: 20px !important;
+  }
+
+  /* 5. Stretch Cards to fill gaps */
+  .card {
+    flex: 1 1 350px !important; 
+    min-height: 300px !important;
+  }
+
+  /* 6. Enforce your custom Order */
+  [id*="profile"] { order: 1 !important; }
+  [id*="social"], [id*="contact"] { order: 2 !important; }
+  [id*="skills"] { order: 3 !important; }
+  [id*="certification"] { order: 4 !important; }
+  [id*="education"] { order: 5 !important; }
+  [id*="project"] { order: 6 !important; }
+</style>
   </head>
   <body>
     <div id="root"></div>
