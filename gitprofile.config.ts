@@ -10,6 +10,13 @@ const CONFIG = {
    * for example your repository is at https://github.com/arifszn/portfolio, then set base to '/portfolio/'.
    */
   base: '/gitprofile/',
+
+  avatar: {
+    src: '/gitprofile/rlo.png', // This points to the file in your public folder
+    display: true,
+    ring: true,
+  },
+
   projects: {
     github: {
       display: true, // Display GitHub projects?
@@ -31,27 +38,16 @@ const CONFIG = {
     external: {
       header: 'My Projects',
       // To hide the `External Projects` section, keep it empty.
-      projects: [
-        {
-          title: 'Project Name',
-          description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
-          imageUrl:
-            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          link: 'https://example.com',
-        },
-        {
-          title: 'Project Name',
-          description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
-          imageUrl:
-            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          link: 'https://example.com',
-        },
+      projects: [ 
+        
       ],
     },
   },
-  seo: { title: 'Portfolio of Hansika', description: '', imageURL: '' },
+seo: {
+  title: 'Portfolio of Hansika | CSE Student & Full Stack Developer',
+  description: '2nd-year CSE student specializing in Full Stack Development and Ethical Hacking.',
+  imageURL: 'https://hansika-41.github.io/gitprofile/rlo.png', // Point to your logo or a profile pic
+},
   social: {
     linkedin: 'Hansika Kanamarlapudi',
     x: 'kan5134_hansika',
@@ -68,6 +64,7 @@ const CONFIG = {
     phone: '',
     email: '24jr1a0579@gmail.com',
   },
+
   skills: [
     'JavaScript',
     'React.js',
@@ -79,6 +76,8 @@ const CONFIG = {
     'Python',
     'C++',
   ],
+    
+
 
   educations: [
     {
@@ -101,31 +100,11 @@ const CONFIG = {
     },
   ],
 
-certifications: [
-  {
-    name: 'Ethical Hacking (NPTEL)',
-    body: 'Earned a consolidated score of 57% in this NPTEL course, gaining insights into network security and system vulnerabilities.',
-    year: 'October 2023',
-    link: 'https://hansika-41.github.io/gitprofile/Nptel.jpg', 
-  },
-  {
-    name: 'Full Stack Development',
-    body: 'Completed a Skill-Oriented Course on Full Stack Development organized by APSSDC in collaboration with the Dept. of CSE at KITS.',
-    year: '2023',
-    link: 'https://hansika-41.github.io/gitprofile/fsd.png',
-  },
-  {
-    name: 'Internet of Things (IOT)',
-    body: 'Completed 40 hours of hands-on experience with microcontrollers and real-time systems.',
-    year: 'August 2025',
-    link: 'https://hansika-41.github.io/gitprofile/iot-cer.jpg',
-  },
-],
   
   // Display articles from your medium or dev account. (Optional)
   blog: {
     source: 'dev', // medium | dev
-    username: 'arifszn', // to hide blog section, keep it empty
+    username: '', // to hide blog section, keep it empty
     limit: 2, // How many articles to display. Max is 10.
   },
   googleAnalytics: {
@@ -154,8 +133,6 @@ certifications: [
       'cupcake',
       'bumblebee',
       'emerald',
-      'corporate',
-      'synthwave',
       'retro',
       'cyberpunk',
       'valentine',
@@ -163,23 +140,18 @@ certifications: [
       'garden',
       'forest',
       'aqua',
-      'lofi',
       'pastel',
       'fantasy',
       'wireframe',
       'black',
       'luxury',
       'dracula',
-      'cmyk',
       'autumn',
-      'business',
-      'acid',
       'lemonade',
       'night',
       'coffee',
       'winter',
       'dim',
-      'nord',
       'sunset',
       'caramellatte',
       'abyss',
